@@ -1,10 +1,9 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
-import 'package:flutter_responsive_design_architecture/responsive_layout/utils/device_platform.dart';
-import 'package:flutter_responsive_design_architecture/responsive_layout/utils/device_type.dart';
+import 'package:flutter_responsive_design_architecture/responsive_layout/utils/device_enums.dart';
+import 'package:flutter_responsive_design_architecture/responsive_layout/utils/screen_information_model.dart';
 
 class ResponsiveLayoutHelper {
   final BuildContext context;
@@ -54,5 +53,15 @@ class ResponsiveLayoutHelper {
 
   Size getScreenSize() {
     return mediaQueryData.size;
+  }
+
+  ScreenInformation getAllInformations(
+      {required BoxConstraints boxConstraints}) {
+    return ScreenInformation(
+      deviceType: getDeviceType(),
+      orientation: getOrientation(),
+      screenSize: getScreenSize(),
+      boundsSize: Size(boxConstraints.maxWidth, boxConstraints.maxHeight),
+    );
   }
 }

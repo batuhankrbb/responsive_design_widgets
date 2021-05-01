@@ -1,7 +1,13 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_responsive_design_architecture/responsive_layout/determiner_widget.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    DevicePreview(
+      builder: (context) => MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -9,6 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      builder: DevicePreview.appBuilder,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -71,7 +78,13 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: DeterminerWidget(
+          portraitMobile: Text("Portrait Mobile"),
+          landscapeMobile: Text("Landscape Mobile"),
+          portraitTablet: Text("Portrait Tablet"),
+          landscapeTablet: Text("Landscape Tablet"),
+          desktop: Text("Desktop"),
+        ),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
