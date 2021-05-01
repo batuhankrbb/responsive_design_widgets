@@ -1,10 +1,13 @@
 # Flutter Widgets for Responsive Design
 
+**FEEL FREE TO CONTRIBUTE***
+
 ## DeterminerWidget
 DeterminerWidget provides you to make different layouts for every device type and orientation.
 
 Usage:
 
+```dart
 DeterminerWidget(
           portraitMobile: Text("Portrait Mobile"),
           landscapeMobile: Text("Landscape Mobile"),
@@ -12,17 +15,17 @@ DeterminerWidget(
           landscapeTablet: Text("Landscape Tablet"),
           desktop: Text("Desktop"),
         )
-        
+ ```
        
        
 ## InformerWidget
 InformerWidget provides you all informations about screen.
 Informations are currently provided:
 
-Screen size
-Parent widget's size
-Device type (Mobile,tablet,desktop)
-Screen orientation
+- Screen size
+- Parent widget's size
+- Device type (Mobile,tablet,desktop)
+- Screen orientation
 
 Usage:
 
@@ -37,3 +40,4 @@ InformerWidget(
                   );
                 },
               )
+```
