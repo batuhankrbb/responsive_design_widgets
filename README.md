@@ -19,7 +19,7 @@ DeterminerWidget(
 InformerWidget provides you all informations about screen.
 Informations are currently provided:
 
-Screen size
+Screen size\n
 Parent widget's size
 Device type (Mobile,tablet,desktop)
 Screen orientation
