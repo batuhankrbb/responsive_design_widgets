@@ -1,5 +1,3 @@
-![examplephoto](https://user-images.githubusercontent.com/59976112/116780635-a07fc600-aa86-11eb-9045-80f893e78e3e.png)
-![examplephoto](https://user-images.githubusercontent.com/59976112/116780638-a4134d00-aa86-11eb-8355-585c405b84d4.png)
 # Flutter Widgets for Responsive Design
 
 **FEEL FREE TO CONTRIBUTE**
@@ -44,5 +42,5 @@ InformerWidget(
               )
 ```
 
-<img src="https://user-images.githubusercontent.com/59976112/116780489-d7a1a780-aa85-11eb-8639-435cfcdd3ed7.png" alt="Example photo" width="400" height="700">
+<img src="https://user-images.githubusercontent.com/59976112/116780635-a07fc600-aa86-11eb-9045-80f893e78e3e.png" alt="Example photo" width="400" height="700">
 
