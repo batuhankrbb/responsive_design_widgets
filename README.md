@@ -1,6 +1,6 @@
 # Flutter Widgets for Responsive Design
 
-**FEEL FREE TO CONTRIBUTE***
+**FEEL FREE TO CONTRIBUTE**
 
 ## DeterminerWidget
 DeterminerWidget provides you to make different layouts for every device type and orientation.
