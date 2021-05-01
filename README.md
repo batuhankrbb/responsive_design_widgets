@@ -1,4 +1,4 @@
-# flutter_responsive_design_architecture
+# Flutter Widgets for Responsive Design
 
 A new Flutter project.
 
