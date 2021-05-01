@@ -9,7 +9,7 @@ Usage:
 
 ```dart
 DeterminerWidget(
-          portraitMobile: Text("Portrait Mobile"),
+          portraitMobile: Text("Portrait Mobile"), //Portrait Mobile must be provided. Others can be optional.
           landscapeMobile: Text("Landscape Mobile"),
           portraitTablet: Text("Portrait Tablet"),
           landscapeTablet: Text("Landscape Tablet"),
