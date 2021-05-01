@@ -41,4 +41,5 @@ InformerWidget(
                 },
               )
 ```
-![responsive_desing_example_photo](https://user-images.githubusercontent.com/59976112/116780489-d7a1a780-aa85-11eb-8639-435cfcdd3ed7.png)
+
+![responsive_desing_example_photo | width: 100](https://user-images.githubusercontent.com/59976112/116780489-d7a1a780-aa85-11eb-8639-435cfcdd3ed7.png)
