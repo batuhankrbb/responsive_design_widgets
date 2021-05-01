@@ -42,5 +42,5 @@ InformerWidget(
               )
 ```
 
-<img src="https://user-images.githubusercontent.com/59976112/116780489-d7a1a780-aa85-11eb-8639-435cfcdd3ed7.png" alt="Example photo" width="200" height="200">
-![responsive_desing_example_photo|width=100px](https://user-images.githubusercontent.com/59976112/116780489-d7a1a780-aa85-11eb-8639-435cfcdd3ed7.png)
+<img src="https://user-images.githubusercontent.com/59976112/116780489-d7a1a780-aa85-11eb-8639-435cfcdd3ed7.png" alt="Example photo" width="400" height="600">
+
