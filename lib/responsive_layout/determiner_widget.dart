@@ -50,9 +50,8 @@ class DeterminerWidget extends StatelessWidget {
   }
 
   Widget? _tabletControl() {
-    if (_deviceType == DeviceType.tablet) {
+    if (_deviceType == DeviceType.tablet) { //You can use ?? to shorten the code but I didn't because I may need to add extra controls like platform control in the future.
       if (_orientation == Orientation.landscape && landscapeTablet != null) {
-        //* landscape null mu diye kontrol ettik çünkü adam tablet için sadece portrait tablete UI ayarlamış olabilir.
         return landscapeTablet;
       }
       return portraitTablet;

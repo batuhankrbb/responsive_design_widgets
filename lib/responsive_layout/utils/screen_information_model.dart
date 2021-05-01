@@ -7,9 +7,14 @@ class ScreenInformation {
   final Size screenSize;
   final Size boundsSize;
 
-  ScreenInformation( 
+  ScreenInformation(
       {required this.deviceType,
       required this.orientation,
       required this.screenSize,
       required this.boundsSize});
+
+  @override
+  String toString() {
+    return "DeviceType ${deviceType.toString()} | Orientation ${orientation.toString()} | ScreenSize ${screenSize.toString()} | BoundsSize ${boundsSize.toString()}";
+  }
 }
