@@ -81,6 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               height: 444,
               width: 222,
+              color: Colors.pink[200],
               child: InformerWidget(
                 onPageBuild: (context, information) {
                   return Text(information.toString());
