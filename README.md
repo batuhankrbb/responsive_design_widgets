@@ -12,3 +12,25 @@ DeterminerWidget(
           landscapeTablet: Text("Landscape Tablet"),
           desktop: Text("Desktop"),
         )
+        
+## InformerWidget
+InformerWidget provides you all informations about screen.
+Informations are currently provided:
+
+Screen size
+Parent widget's size
+Device type (Mobile,tablet,desktop)
+Screen orientation
+
+Usage:
+
+InformerWidget(
+                onPageBuild: (context, information) {
+                  return Container(
+                    //return a widget with informations
+                    child: Text(information.toString()),
+                    height: information.boundsSize.height * 0.5,
+                    width: information.customDeviceType == CustomDeviceType.mobile ? 100 : 300,
+                  );
+                },
+              )
