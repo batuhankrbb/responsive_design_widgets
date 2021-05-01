@@ -5,6 +5,7 @@ DeterminerWidget provides you to make different layouts for every device type an
 
 Usage:
 
+```
 DeterminerWidget(
           portraitMobile: Text("Portrait Mobile"),
           landscapeMobile: Text("Landscape Mobile"),
@@ -12,6 +13,7 @@ DeterminerWidget(
           landscapeTablet: Text("Landscape Tablet"),
           desktop: Text("Desktop"),
         )
+        ```
         
 ## InformerWidget
 InformerWidget provides you all informations about screen.
@@ -24,6 +26,7 @@ Screen orientation
 
 Usage:
 
+```
 InformerWidget(
                 onPageBuild: (context, information) {
                   return Container(
@@ -34,3 +37,4 @@ InformerWidget(
                   );
                 },
               )
+ ```
